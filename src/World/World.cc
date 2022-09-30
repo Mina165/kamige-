@@ -31,11 +31,12 @@ void World::DisplayWorld()
 {
     for(int i=0;i<GetXSize();i++)
     {
-        for(int j=0;j<GetYSize();j++){
-            if(worldData.at(i).at(j).type==BlockData::BlockType::air){
+        for(int j=0;j<GetYSize();j++)
+        {
+            if(worldData.at(i).at(j).type==BlockData::BlockType::air)
+            {
                 std::cout<<"a";
             }
-
         }
     }
 }
